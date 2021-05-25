@@ -1,4 +1,4 @@
-
+import javax.swing.JOptionPane;
 
 public class DataTypes{
  public static void main(String[] args){
@@ -19,6 +19,6 @@ public class DataTypes{
   
   System.out.println("Usia : " + usia + " Tahun");
   System.out.println("Usia ketika lulus : " + (usia + targetTahunKuliah) + " Tahun");
- 
+  JOptionPane.showMessageDialog(null, "Hai " + namaDepan +" " + namaTengah +" " +namaBelakang);
  }
 }
