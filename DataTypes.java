@@ -1,3 +1,5 @@
+
+
 public class DataTypes{
  public static void main(String[] args){
 
@@ -9,5 +11,14 @@ public class DataTypes{
   double ipk = 3.89764512;
   char nilaiAbjad = 'A';
   boolean tampan = true;
+
+  System.out.println("Nama Lengkap : " + " "
+ + namaDepan +" " 
+ + namaTengah +" " 
+ +namaBelakang);
+  
+  System.out.println("Usia : " + usia + " Tahun");
+  System.out.println("Usia ketika lulus : " + (usia + targetTahunKuliah) + " Tahun");
+ 
  }
 }
